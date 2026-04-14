@@ -25,7 +25,7 @@
         <li><a href="#about"><i class="fa-solid fa-user"></i> À propos</a></li>
         <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portefeuille</a></li>
         <li><a href="#services"><i class="fa-solid fa-list"></i> Services</a></li>
-       <li><a href="#additional-projects"><i class="fa-solid fa-layer-group"></i> Extras</a></li>
+     
     </ul>
 
     <button id="menu-open-button" class="fas fa-bars" title="Ouvrir le menu"></button>
@@ -41,7 +41,7 @@
                         <h3 class="my-profession">Je suis <span class="typing">Étudiante en Génie Logiciel</span></h3>
                         <h3 class="job">Étudiante en 3ème année de Génie Logiciel</h3>
                         <p class="text">
-                       Actuellement en 3ème année de Génie Logiciel à l’Université de Bejaïa, passionnée par le développement logiciel et les technologies web. Je possède des compétences en programmation, conception de systèmes et bases de données. Curieuse et motivée, je souhaite approfondir mes connaissances pratiques et développer des solutions innovantes.
+                      Étudiante en 3ᵉ année de Génie Logiciel à l’Université de Béjaïa, passionnée par le développement logiciel, les bases de données et les systèmes informatiques. Motivée, curieuse et en recherche de renforcement de compétences pratiques à travers des projets concrets.
                         </p>
                         <a href="cv.pdf" class="btn" >Télécharger CV</a>
                     </div>
@@ -249,9 +249,9 @@
             <div class="row">
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="images/login.png" alt="Login Page">
+                        <img src="images/voiture.png" alt="Login Page">
                         <div class="project-overlay">
-                           <a href="https://github.com/lamia-byte/login" 
+                           <a href="https://github.com/lamiazidane-art/location-voiture.git" 
    class="project-link" 
    target="_blank"
    rel="noopener noreferrer"
@@ -260,14 +260,33 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h4>Login Page</h4>
-                        <p>Développement d’une interface de connexion moderne en HTML et CSS avec gestion des champs email/mot de passe, option “se souvenir de moi” et design structuré avec image et formulaire.</p>
+                        <h4>Application Web de Location de Voitures (PHP/MySQL) </h4>
+                        <p class="project-description">Conception et développement d'une application web de location de voitures intégrant authentification utilisateur, gestion dynamique des véhicules et système de réservation. Utilisation de PHP pour la logique backend et MySQL pour la gestion des données.</p>
+                        <button class="read-more-btn" data-title="Application Web de Location de Voitures" data-description="Conception et développement d'une application web de location de voitures intégrant authentification utilisateur, gestion dynamique des véhicules et système de réservation. Utilisation de PHP pour la logique backend et MySQL pour la gestion des données.">Lire plus</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="images/compil.png" alt="Mini projet compilation">
+                        <div class="project-overlay">
+                           <a href="https://github.com/YCMina/compil" 
+   class="project-link" 
+   target="_blank"
+   rel="noopener noreferrer"
+   title="Voir le projet sur GitHub">
+</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Mini projet compilation</h4>
+                        <p class="project-description">Conception et implémentation en Java d'un mini compilateur pour un langage de type JavaScript. Le système prend en entrée un code source et réalise les étapes fondamentales de compilation : analyse lexicale, analyse syntaxique.</p>
+                        <button class="read-more-btn" data-title="Mini projet compilation" data-description="Conception et implémentation en Java d'un mini compilateur pour un langage de type JavaScript. Le système prend en entrée un code source et réalise les étapes fondamentales de compilation : analyse lexicale, analyse syntaxique. Ce projet vise à simuler le fonctionnement d'un compilateur et à appliquer les concepts des langages formels et automates.">Lire plus</button>
                     </div>
                 </div>
 
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="images/contacter.png" alt="Contact Form">
+                        <img src="images/login.png" alt="Contact Form">
                         <div class="project-overlay">
                            <a href="https://github.com/lamia-byte/contact" 
    class="project-link" 
@@ -278,11 +297,65 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h4>Contact Form</h4>
-                        <p>Développement d’un formulaire de contact en HTML et CSS permettant la saisie des informations utilisateur (nom, prénom) avec validation des champs et interface simple.</p>
+                        <h4>Clogin Form</h4>
+                        <p class="project-description">Développement d'un formulaire de login en HTML et CSS permettant la saisie des informations utilisateur (nom, prénom) avec validation des champs et interface simple.</p>
+                        <button class="read-more-btn" data-title="Contact Form" data-description="Développement d'un formulaire de contact en HTML et CSS permettant la saisie des informations utilisateur (nom, prénom) avec validation des champs et interface simple.">Lire plus</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-img carousel-container">
+                        <div class="carousel-wrapper">
+                            <img src="file:///C:/Bureau/portfilio/images/c1.png" alt="Ecommerce Platform - Gallery 1" class="carousel-img active">
+                            <img src="file:///C:/Bureau/portfilio/images/c2.png" alt="Ecommerce Platform - Gallery 2" class="carousel-img">
+                            <img src="file:///C:/Bureau/portfilio/images/c3.png" alt="Ecommerce Platform - Gallery 3" class="carousel-img">
+                            <img src="file:///C:/Bureau/portfilio/images/c4.png" alt="Ecommerce Platform - Gallery 4" class="carousel-img">
+                            <img src="file:///C:/Bureau/portfilio/images/c5.png" alt="Ecommerce Platform - Gallery 5" class="carousel-img">
+                        </div>
+                        
+                        <button class="carousel-btn carousel-prev" onclick="moveCarousel(-1, this)">❮</button>
+                        <button class="carousel-btn carousel-next" onclick="moveCarousel(1, this)">❯</button>
+                        
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentCarouselSlide(0, this)"></span>
+                            <span class="dot" onclick="currentCarouselSlide(1, this)"></span>
+                            <span class="dot" onclick="currentCarouselSlide(2, this)"></span>
+                            <span class="dot" onclick="currentCarouselSlide(3, this)"></span>
+                            <span class="dot" onclick="currentCarouselSlide(4, this)"></span>
+                        </div>
+                        <div class="project-overlay">
+                          
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>ecommerce platform en php (En Cours)</h4>
+                        <p class="project-description">
+    Développement d’une application e-commerce en PHP/MySQL permettant la gestion complète d’une boutique en ligne.  
+    Le système comprend l'authentification des utilisateurs, la gestion des produits, le panier et le processus de commande.
+</p>
+                        <button class="read-more-btn" data-title="Ecommerce Platform en PHP" data-description="Développement d'une application e-commerce en PHP/MySQL permettant la gestion complète d'une boutique en ligne. Le système comprend l'authentification des utilisateurs, la gestion des produits, le panier et le processus de commande. Le projet met en œuvre le développement web dynamique côté serveur ainsi que la manipulation de bases de données relationnelles.">Lire plus</button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-img">
+                        <img src="images/biblio.png" alt="Library Management System">
+                        <div class="project-overlay">
+                           <a href="https://github.com/lamia-byte/GestionLibrairie" 
+   class="project-link" 
+   target="_blank"
+   rel="noopener noreferrer"
+   title="Voir le projet sur GitHub">
+</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Système de Gestion de Librairie (Java)</h4>
+                        <p class="project-description">Conception et développement d'une application de gestion de librairie en Java, basée sur la programmation orientée objet. Le système permet la gestion complète des livres, fournisseurs, commandes et ventes.</p>
+                        <button class="read-more-btn" data-title="Système de Gestion de Librairie (Java)" data-description="Conception et développement d'une application de gestion de librairie en Java, basée sur la programmation orientée objet. Le système permet la gestion complète des livres, fournisseurs, commandes et ventes, avec authentification utilisateur et tableau de bord analytique. Le projet inclut la connexion à une base de données et l'application des principes de conception logicielle.">Lire plus</button>
                     </div>
                 </div>
 
+
+                
                 <div class="project-item">
                     <div class="project-img">
                         <img src="images/pierre.png" alt="Rock Paper Scissors Game">
@@ -297,7 +370,8 @@
                     </div>
                     <div class="project-info">
                         <h4>Rock Paper Scissors Game</h4>
-                        <p>Création d’un jeu interactif “Pierre-Feuille-Ciseaux” en JavaScript avec logique conditionnelle, génération aléatoire du choix de la machine et affichage dynamique du résultat.</p>
+                        <p class="project-description">Création d'un jeu interactif "Pierre-Feuille-Ciseaux" en JavaScript avec logique conditionnelle, génération aléatoire du choix de la machine et affichage dynamique du résultat.</p>
+                        <button class="read-more-btn" data-title="Rock Paper Scissors Game" data-description="Création d'un jeu interactif Pierre-Feuille-Ciseaux en JavaScript avec logique conditionnelle, génération aléatoire du choix de la machine et affichage dynamique du résultat.">Lire plus</button>
                     </div>
                 </div>
 
@@ -315,74 +389,14 @@
                     </div>
                     <div class="project-info">
                         <h4>Landing Page (MonSite)</h4>
-                        <p>Conception d’une page web responsive en HTML et CSS utilisant Flexbox, avec une structure moderne comprenant une barre de navigation, une section d’accueil et des cartes de contenu.</p>
+                        <p class="project-description">Conception d'une page web responsive en HTML et CSS utilisant Flexbox, avec une structure moderne comprenant une barre de navigation, une section d'accueil et des cartes de contenu.</p>
+                        <button class="read-more-btn" data-title="Landing Page (MonSite)" data-description="Conception d'une page web responsive en HTML et CSS utilisant Flexbox, avec une structure moderne comprenant une barre de navigation, une section d'accueil et des cartes de contenu.">Lire plus</button>
                     </div>
                 </div>
 
-                <div class="project-item">
-                    <div class="project-img">
-                        <img src="images/compil.png" alt="Mini projet compilation">
-                        <div class="project-overlay">
-                           <a href="https://github.com/YCMina/compil" 
-   class="project-link" 
-   target="_blank"
-   rel="noopener noreferrer"
-   title="Voir le projet sur GitHub">
-</a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h4>Mini projet compilation</h4>
-                        <p>Développement d’un compilateur simple incluant l’analyse lexicale, syntaxique et la vérification sémantique pour un langage simplifié.</p>
-                    </div>
-                </div>
+                
 
-                <div class="project-item">
-                    <div class="project-img">
-                        <img src="images/biblio.png" alt="Library Management System">
-                        <div class="project-overlay">
-                           <a href="https://github.com/lamia-byte/GestionLibrairie" 
-   class="project-link" 
-   target="_blank"
-   rel="noopener noreferrer"
-   title="Voir le projet sur GitHub">
-</a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h4>Système de Gestion de Librairie</h4>
-                        <p>Application web de gestion d’une librairie développée dans le cadre de ma 3ᵉ année en génie logiciel. Elle permet de gérer les livres, les fournisseurs, les commandes et les ventes, avec un système d’authentification et un tableau de bord pour le suivi du stock et des statistiques.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio section " id="additional-projects">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2>Projets Supplémentaires</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="project-item">
-                    <div class="project-img">
-                        <img src="images/coffe.png" alt="coffee shop template">
-                        <div class="project-overlay">
-                           <a href="https://github.com/lamia-byte/cafe.git" 
-   class="project-link" 
-   target="_blank"
-   rel="noopener noreferrer"
-   title="Voir le projet sur GitHub">
-</a>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h4>coffee</h4>
-                        <p>Template de coffee shop en HTML avec navigation responsive, sections menu, produits, avis clients, livraison par wilaya (Alger, Blida, Boumerdès), galerie, formulaire de contact, bouton WhatsApp flottant et footer newsletter.</p>
-                    </div>
-                </div>
+                
 
                 <div class="project-item">
                     <div class="project-img">
@@ -397,8 +411,9 @@
                         </div>
                     </div>
                     <div class="project-info">
-                        <h4>coffee</h4>
-                        <p>Page web coffee shop en HTML avec structure basique incluant header, sections hero, about, menu (4 produits), galerie et livraison, avec icônes FontAwesome et design responsive.</p>
+                        <h4>Coffee Shop</h4>
+                        <p class="project-description">Page web coffee shop en HTML avec structure basique incluant header, sections hero, about, menu, galerie et livraison.</p>
+                        <button class="read-more-btn" data-title="Coffee Shop" data-description="Page web coffee shop en HTML avec structure basique incluant header, sections hero, about, menu (4 produits), galerie et livraison, avec icônes FontAwesome et design responsive.">Lire plus</button>
                     </div>
                 </div>
             </div>
@@ -406,6 +421,22 @@
     </section>
                  
     </div>
+  </div>
+
+  
+  <div class="project-modal" id="projectModal">
+      <div class="modal-content">
+          <button class="modal-close" id="modalClose">&times;</button>
+          <h3 id="modalTitle"></h3>
+          <p id="modalDescription"></p>
+      </div>
+  </div>
+
+  
+  <div class="lightbox" id="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
   </div>
     
 </body>
